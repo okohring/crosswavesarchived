@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cross waves 1.2</title>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script>
+var __adobewebfontsappname__="dreamweaver"
+</script>
+<script src="http://use.edgefonts.net/vt323:n4:default.js" type="text/javascript"></script>
+
+<style type="text/css">
+body,td,th {
+    font-family: "vt323";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9AAAF1;
+}
+body {
+    background-position: top;
+    background-color: #00000D;
+    background-repeat: no-repeat;
+    background-size: auto;
+	margin:auto;
+}
+a:link {
+    color: #0000B8;
+}
+a:visited {
+    color: #0000B8;
+}
+a:hover {
+    color: #9AAAF1;
+}
+a:active {
+    color: #9AAAF1;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "vt323";
+    font-style: normal;
+    font-weight: 400;
+}
+h1 {
+    font-size: 100px;
+    color: #00001D;
+    text-align: center;
+    font-weight: 200;
+}
+h2 {
+    font-size: 50px;
+    color: #0000B8;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    color: #CE604C;
+	text-align: center;
+}
+	
+h4 {
+    font-size: 20px;
+    color: #00000D;
+    text-align: center;
+	}
+
+header {
+	align-content: center;     
+	position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+	top: 15%;
+}
+	
+	section.a {
+		z-index:-2;
+	position: absolute;
+		margin-left: 400px;
+		margin-top: 450px;
+	}
+	
+	section.aa {
+		z-index: -1;
+	position: absolute;
+		margin-top: 450px;
+		margin-left: 1100px;
+	}
+	
+	section.aaa {
+	z-index:-6;
+	position: absolute;
+	top: 50%;
+	left: 60%}
+	
+	section.aaa2 {
+	align-content: center;
+	z-index:-3;
+	position: absolute;
+	top: 78%;}
+	
+	
+	section.aaaa {
+	z-index:-5;
+	position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+	top: 32%;}
+	
+	section.staticmountains {
+	z-index:-4;
+	position: absolute;
+	top: 25%;}
+	}
+	
+	.mainsize {
+	max-height: 650px;
+	max-width: 1900px;}
+	
+body {
+    background-image: url(BG-New.png);
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+        }
+	
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+a:hover {
+    color: #9AAAF1;
+    background: #0000B8;
+}
+
+
+::selection {
+  color: #E2E5A0;
+  background: #0000B8;
+}
+	
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cross waves 1.2</title>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script>
+var __adobewebfontsappname__="dreamweaver"
+</script>
+<script src="http://use.edgefonts.net/vt323:n4:default.js" type="text/javascript"></script>
+
+<style type="text/css">
+body,td,th {
+    font-family: "vt323";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9AAAF1;
+}
+body {
+    background-position: top;
+    background-color: #00000D;
+    background-repeat: no-repeat;
+    background-size: auto;
+	margin:auto;
+}
+a:link {
+    color: #0000B8;
+}
+a:visited {
+    color: #0000B8;
+}
+a:hover {
+    color: #9AAAF1;
+}
+a:active {
+    color: #9AAAF1;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "vt323";
+    font-style: normal;
+    font-weight: 400;
+}
+h1 {
+    font-size: 100px;
+    color: #00001D;
+    text-align: center;
+    font-weight: 200;
+}
+h2 {
+    font-size: 50px;
+    color: #0000B8;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    color: #CE604C;
+	text-align: center;
+}
+	
+h4 {
+    font-size: 20px;
+    color: #00000D;
+    text-align: center;
+	}
+
+header {
+	align-content: center;     
+	position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+	top: 15%;
+}
+	
+	section.a {
+		z-index:-2;
+	position: absolute;
+		margin-left: 400px;
+		margin-top: 450px;
+	}
+	
+	section.aa {
+		z-index: -1;
+	position: absolute;
+		margin-top: 450px;
+		margin-left: 1100px;
+	}
+	
+	section.aaa {
+	z-index:-6;
+	position: absolute;
+	top: 65%;
+	left: 60%}
+	
+	section.aaa2 {
+	align-content: center;
+	z-index:-3;
+	position: absolute;
+	top: 78%;}
+	
+	
+	section.aaaa {
+	z-index:-5;
+	position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+	top: 32%;}
+	
+	section.staticmountains {
+	z-index:-4;
+	position: absolute;
+	top: 25%;}
+	}
+	
+	.mainsize {
+	max-height: 650px;
+	max-width: 1900px;}
+	
+body {
+    background-image: url("Graphics/BG-New.png");
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+        }
+	
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+a:hover {
+    color: #9AAAF1;
+    background: #0000B8;
+}
+
+
+::selection {
+  color: #E2E5A0;
+  background: #0000B8;
+}
+	
+</style>
+</head>
+	<div class="mainsize">
+<body background="Graphics/BG-New.png">
+
+<br>
+<marquee behavior="scroll" direction="right" scrollamount="infinite" scrolldelay="100"><img src="Graphics/cloud yellow 1-01.png" width="400" height="74" alt=""/></marquee>
+<br><br><br><br><br>
+<marquee behavior="scroll" direction="left" scrollamount="infinite" scrolldelay="145"><img src="Graphics/cloud yellow 1-01.png" width="425" height="80" style="transform: scaleX(-1);" alt=""/></marquee>
+	
+<header>
+<h1>hello world</h1>
+	<h2><a href="i Seven Seas of Rhye.html">click to continue</a></h2>
+	<audio title="La Villa Strangiato by Rush" preload="auto" autoplay="autoplay" loop="loop" >
+      <source src="Audio/La Villa Strangiato by Rush REMASTERED.mp3" type="audio/mp3">
+      <p style="text-align: center">La Villa Strangiato by Rush</p>
+	</audio>
+</header>
+
+
+	
+<section class="aa">
+	<div class="floating">
+			<img src="Graphics/ship.png" width="175" height="97" alt=""/>
+	</div>
+</section>
+	
+<section class="a">
+	<div class="floating">
+			<img src="Graphics/ship.png" width="250" height="140" alt=""/>
+	</div>
+</section>
+	
+	<section class="aaa"><img src="Graphics/Sun Only-01-01.png" width="400" height="200" alt=""/>
+	</section>
+	
+<section class="aaa2"><img src="Graphics/Sea Only-01.png" width="1903.2" height="300" alt=""/>
+</section>
+	
+<section class="staticmountains">
+		<img src="Graphics/Mountains-no-Sun-01.png" width="1903.2" height="509" alt=""/>
+	</section>
+
+	<section class="aaaa">
+		<marquee behavior="scroll" direction="left" scrollamount="infinite" scrolldelay="275">
+			<img src="Graphics/Mountain1-01.png" width="600" height="448" alt=""/>
+		</marquee>
+	</section>
+	
+</body>
+		</div>
+</html>
